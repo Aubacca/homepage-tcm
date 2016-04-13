@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootswatch: United</title>
+    <title>TC Münchenstein</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="./bower_components/bootstrapTheme/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../bower_components/bootstrapTheme/bootstrap.css" media="screen">
     <link rel="stylesheet" href="./assets/css/custom.min.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -29,10 +30,11 @@
     </script>
   </head>
   <body>
+    <div class="viewport">
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="../" class="navbar-brand">Bootswatch</a>
+          <a href="./index.html" class="navbar-brand">TC Münchenstein</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -41,6 +43,16 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
+            <li>
+              <a href="#clubspace">Clubanlage</a>
+            </li>
+            <li>
+              <a href="#events">Anlässe</a>
+            </li>
+            <li>
+              <a href="#membership">Mitgliedschaft</a>
+            </li>
+<!-- 
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Themes <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="themes">
@@ -85,17 +97,116 @@
                 <li><a href="./_bootswatch.scss">_bootswatch.scss</a></li>
               </ul>
             </li>
+-->
           </ul>
 
+<!-- 
           <ul class="nav navbar-nav navbar-right">
             <li><a href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
             <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">WrapBootstrap</a></li>
           </ul>
+-->
 
         </div>
       </div>
     </div>
 
+    <div class="container-fluid bg-info" id="clubspace">
+      <h1>Clubanlage</h1>
+      <div class="container>
+        <div class="row">
+          <div class="col-xs-12 col-sm-3">
+            <a href="#" class="thumbnail">
+              <img src="./img/FILE0008.jpg" alt="Die Plätze">
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <a href="#" class="thumbnail">
+              <img src="./img/FILE0009.jpg" alt="Das Clubhaus">
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <a href="#" class="thumbnail">
+              <img src="./img/FILE0003.jpg" alt="Der Sitzplatz">
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <a href="#" class="thumbnail">
+              <img src="./img/FILE0001.jpg" alt="Die Trainingswand">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-success" id="events">
+      <h1>Anlässe</h1>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="./img/FILE0001.jpg" alt="Seite 1">
+            <div class="carousel-caption">
+              <h3>Seite 1</h3>
+              <p>Hier sehen Sie die Seite 1</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./img/FILE0011.jpg" alt="Seite 2">
+            <div class="carousel-caption">
+              <h3>Seite 2</h3>
+              <p>Hier sehen Sie die Seite 2</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./img/IMG_0002.jpg" alt="Seite 3">
+            <div class="carousel-caption">
+              <h3>Seite 3</h3>
+              <p>Hier sehen Sie die Seite 3</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-warning" id="membership">
+      <h1>Mitgliedschaft</h1>
+      <div class="jumbotron">
+        <h1>Schnupperabo für Neumitglieder</h1>
+        <p>Ab sofort für ein Jahr gültig!</p>
+        <p><a class="btn btn-primary btn-lg" href="./download/Schnupperabo.PDF" target="_blank" role="button">Anmeldeformular</a></p>
+      </div>
+    </div>
+    
+    <footer style="background-color: darkgoldenrod;">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3">
+          <h1>Download</h1>
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
     <div class="container">
 
@@ -1292,10 +1403,21 @@
 
 
     </div>
+    </div>
+    
+    <div class="container">
+      <ul class="list-unstyled">
+        <li class="pull-right"><a href="#top">Back to top</a></li>
+      </ul>
+    </div>
 
-
-    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="./assets/js/custom.js"></script>
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./assets/js/custom.js"></script>
   <script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+  
+  <script type="text/javascript">
+    $('.carousel').carousel();
+  </script>
+  
 </html>
