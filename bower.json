@@ -1,0 +1,21 @@
+{
+  "name": "homepage-tcm",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Aubacca/homepage-tcm",
+  "authors": [
+    "Aubacca <aubacca.renhor@gmail.com>"
+  ],
+  "description": "Homepage TC Muenchenstein",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": ">=2.0.4 <4.0",
+    "jquery": "~2.2.3"
+  }
+}
