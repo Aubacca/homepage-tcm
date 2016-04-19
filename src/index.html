@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="../bower_components/bootstrapTheme/bootstrap.css" media="screen">
     <link rel="stylesheet" href="./assets/css/custom.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-custom.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
@@ -28,6 +29,16 @@
      })();
 
     </script>
+<!-- 
+    <style>
+footer {
+    background-color: #000000;
+    font-size: 12px;
+    min-height: 100px;
+    position: relative;
+}
+    </style>
+-->
   </head>
   <body>
     <div class="viewport">
@@ -97,9 +108,8 @@
                 <li><a href="./_bootswatch.scss">_bootswatch.scss</a></li>
               </ul>
             </li>
--->
           </ul>
-
+-->
 <!-- 
           <ul class="nav navbar-nav navbar-right">
             <li><a href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
@@ -195,7 +205,27 @@
       </div>
     </div>
     
-    <footer style="background-color: darkgoldenrod;">
+    <!-- <footer style="background-color: darkgoldenrod;"> -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row-fluid ms-dialogHidden">
+          <div class="ms-webpart-chrome ms-webpart-chrome-fullWidth">
+            <div class="ms-rtestate-field">
+              <p>Copyright &copy; Communications Design &amp; Management Pty Limited 2015 | All rights reserved | <a href="/Pages/Privacy-Statement.aspx">Privacy Statement</a> | <a href="/Pages/Terms-of-Use.aspx">Terms of Use</a></p>
+              <div class="footer-col">
+                <h3>DOWNLOAD</h3>
+                <ul>
+                  <li><a href="/who-we-are/about">Statuten</a></li>
+                  <li><a href="/who-we-are/about">Clubreglement</a></li>
+                  <li><a href="/who-we-are/about">Anmeldung</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+<!-- 
       <div class="row">
         <div class="col-xs-12 col-sm-3">
           <h1>Download</h1>
@@ -206,8 +236,8 @@
           </ul>
         </div>
       </div>
+-->
     </footer>
-
     <div class="container">
 
       <div class="page-header" id="banner">
@@ -1404,7 +1434,6 @@
 
     </div>
     </div>
-    
     <div class="container">
       <ul class="list-unstyled">
         <li class="pull-right"><a href="#top">Back to top</a></li>
@@ -1419,5 +1448,4 @@
   <script type="text/javascript">
     $('.carousel').carousel();
   </script>
-  
 </html>
