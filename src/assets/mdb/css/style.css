@@ -65,11 +65,16 @@ footer.page-footer {
     height: 100%;
 }
 
+.h1-responsive,
+.p-carousel {
+    text-shadow: 2px 2px black;
+}
+
 .carousel-item:nth-child(1) {
 /*
     background-image: url("../images/slides/slide(6).jpg");
 */
-    background-image: url("../images/slides/club00001.jpg");
+    background-image: url("../images/slides/hdr00001.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.4;
