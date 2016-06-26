@@ -1,3 +1,6 @@
 bower_components/
 tcm-rundflug/
 bilder/
+./images/
+/images/
+images/
