@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+
+  <!-- Font Awesome -->
+  <!--
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+-->
+  <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+  <!--
+    <link href="../../../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+-->
+
+  <!-- Material Design Bootstrap -->
+  <link href="./assets/css/mdb.min.css" rel="stylesheet">
+
+  <!-- Template styles -->
+  <link href="./assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <!--Navbar-->
+  <nav class="navbar navbar-dark navbar-fixed-top scrolling-navbar">
+
+    <!-- Collapse button-->
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx">
+       <i class="fa fa-bars"></i>
+    </button>
+
+    <div class="container">
+
+      <!--Collapse content-->
+      <div id="menu" class="collapse navbar-toggleable-xs" id="collapseEx">
+        <!--Navbar Brand-->
+        <a class="navbar-brand" href="#">TC Münchenstein</a>
+        <!--Links-->
+        <ul class="nav navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#whoAreWe">Über uns</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cost">Kosten</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Anlässe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#schnupperAbo">Schnupperabo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#downloads">Downloads</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="http://tc-muenchenstein.ch" target="_blank">Alt <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <!--Search form-->
+<!--
+        <form class="form-inline">
+          <input class="form-control" type="text" placeholder="Search">
+        </form>
+-->
+      </div>
+      <!--/.Collapse content-->
+
+    </div>
+
+  </nav>
+  <!--/.Navbar-->
+
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-1" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-1" data-slide-to="1"></li>
+      <li data-target="#carousel-example-1" data-slide-to="2"></li>
+      <li data-target="#carousel-example-1" data-slide-to="3"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+        <!--Caption-->
+        <div class="flex-center animated fadeInDown">
+          <ul>
+            <li>
+              <h1 class="h1-responsive">Willkommen beim TC Münchenstein</h1>
+            </li>
+            <li><span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+              <p class="p-carousel">Der familienfreundliche Tennisclub in Münchenstein</p>
+              <p class="p-carousel">Unser Tennisclub liegt sehr gut gelegen in der Talsohle Münchensteins, inmitten von weiteren Sportanlagen.</p>
+            </li>
+            <li>
+              <a href="#whoAreWe" class="btn btn-primary btn-lg"><i class="fa fa-diamond left"></i> Mehr zum Verein ..</a>
+              <a target="_blank" href="./download/TCM_Statuten.pdf" class="btn btn-default btn-lg"><i class="fa fa-institution left"></i> Unsere Statuten ..</a>
+            </li>
+          </ul>
+        </div>
+        <!--Caption-->
+      </div>
+      <!--/.First slide-->
+
+      <!--Second slide -->
+      <div class="carousel-item">
+        <!--Caption-->
+        <div class="flex-center animated fadeInUp">
+          <ul>
+            <li>
+              <h1 class="h1-responsive">Schnupperabo für Neumitglieder</h1>
+            </li>
+            <li>
+              <p class="p-carousel">Für alle, die dem nun über 50-jährigen Tennisclub Münchenstein kennen lernen möchten.</p>
+              <p class="p-carousel">Du kannst dir in aller Ruhe ein Bild des Tennisclub Münchenstein machen.</p>
+              <p class="p-carousel">Nach einem Jahr entscheiden, ob unser Club wirklich der Richtige ist.</p>
+              <p class="p-carousel">Haben wir dein Interesse geweckt? Der Vorstand gibt dir gerne Auskunft.</p>
+            </li>
+            <li>
+              <a href="#schnupperAbo" class="btn btn-primary btn-lg"><i class="fa fa-check left"></i> Schnupperabo</a>
+            </li>
+          </ul>
+        </div>
+        <!--Caption-->
+      </div>
+      <!--/.Second slide -->
+
+      <!--Third slide-->
+      <div class="carousel-item">
+        <!--Caption-->
+        <div class="flex-center animated fadeInRight">
+          <ul>
+            <li>
+              <h1 class="h1-responsive">Der Umschwung des Tennisclubs</h1>
+            </li>
+            <li>
+              <p>Der gut gepflegte Umschwung bietet viele Möglichkeiten zum verweilen.</p>
+              <p>Während die grossen Tennis spielen, wird es den kleinen auf dem Spielplatz nie langweilig.</p>
+            </li>
+            <li>
+              <a href="./download/TCM_Clubreglement.pdf" class="btn btn-default btn-lg" target="_"><i class="fa fa-group" aria-hidden="true"></i> TCM Clubreglement</a>
+            </li>
+          </ul>
+        </div>
+        <!--Caption-->
+      </div>
+      <!--/.Third slide-->
+
+      <!--Forth slide-->
+      <div class="carousel-item">
+        <!--Caption-->
+        <div class="flex-center animated fadeInLeft">
+          <ul>
+            <li>
+              <h1 class="h1-responsive">Inmitten der Sportplätze von Münchenstein</h1>
+            </li>
+            <li>
+              <p>Gut geschützt aber doch einfach zu finden</p>
+            </li>
+            <li>
+              <a href="#downloads" class="btn btn-default btn-lg"><i class="fa fa-cloud-download" aria-hidden="true"></i> Downloads</a>
+            </li>
+          </ul>
+        </div>
+        <!--Caption-->
+      </div>
+      <!--/.Forth slide-->
+    </div>
+    <!--/.Slides-->
+
+    <!--Controls-->
+    <a class="left carousel-control" href="#carousel-example-1" role="button" data-slide="prev">
+      <span class="icon-prev" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-1" role="button" data-slide="next">
+      <span class="icon-next" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+
+  <main>
+    <!--Main layout-->
+    <div class="container-fluid">
+      <hr class="extra-margins">
+      <!--First row-->
+      <div class="row">
+        <div class="col-md-7">
+          <!--Featured image -->
+          <div class="view overlay hm-white-light z-depth-1-half">
+            <img src="./img/page/00003.jpg" class="img-fluid " alt="">
+            <div class="mask">
+            </div>
+          </div>
+          <br>
+        </div>
+
+        <!--Main information-->
+        <div id="whoAreWe" class="col-md-5">
+          <h2 class="h2-responsive">Wer sind wir</h2>
+          <hr>
+          <div>
+            <p>Der Tennisclub Münchenstein wurde am 9. November 1966 gegründet.</p>
+            <p>Mit seiner nun 50-jährigen Geschichte wird der TC Münchenstein als traditioneller Familienclub geschätzt.</p>
+          </div>
+          <div>
+            <p>Unsere Anlage besteht aus drei Sandplätzen, 2 davon mit Flutlichtbeleuchtung,  einem heimeligen Clubhaus mit Küche, getrennte Garderobe und Duschen, einer Trainingswand und einem kleinen Kinderspielplatz.</p>
+          </div>
+          <a href="./download/TCM_Vorstellung.pdf" class="btn btn-info" target="_">
+            <i class="fa fa-info-circle" aria-hidden="true"></i> Zum Flyer ..
+          </a>
+        </div>
+      </div>
+      <!--/.First row-->
+      <hr class="extra-margins">
+
+      <!--Second row-->
+      <div class="row">
+        <!--First columnn-->
+        <div class="col-md-4">
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay hm-white-slight">
+              <img src="./img/page/00005.jpg" class="img-fluid" alt="">
+              <a href="#">
+                <div class="mask"></div>
+              </a>
+            </div>
+            <!--/.Card image-->
+
+            <!--Card content-->
+            <div class="card-block">
+              <!--Title-->
+              <h4 class="card-title">Die Infrastruktur</h4>
+              <!--Text-->
+              <p class="card-text">
+                <div>
+                  <p class="card-text">Parkplätze sind beim Club vorhanden.</p>
+                  <p class="card-text">Die Tennissaison dauert von April bis November.</p>
+                  <p class="card-text">In dieser Zeit sind die Plätze in der Regel von Sonnenaufgang bis 22.00 Uhr offen.</p>
+                  <p class="card-text">Reservationen sind nicht notwendig.</p>
+                </div>
+              </p>
+              <a href="./download/TCM_Vorstellung.pdf" class="btn btn-info" target="_">
+                <i class="fa fa-info-circle" aria-hidden="true"></i> Zum Flyer ..
+              </a>
+            </div>
+            <!--/.Card content-->
+
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--First columnn-->
+
+        <!--Second columnn-->
+        <div class="col-md-4">
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay hm-white-slight">
+              <img src="./img/page\00006.jpg" class="img-fluid" alt="">
+              <a href="#">
+                <div class="mask"></div>
+              </a>
+            </div>
+            <!--/.Card image-->
+
+            <!--Card content-->
+            <div class="card-block">
+              <!--Title-->
+              <h4 class="card-title">Anlässe</h4>
+              <!--Text-->
+              <p class="card-text">Verschiedene Anlässe und Aktivitäten wie Apéros, Grillabende, Interclub, Gruppen- und Juniorentrainings, Clubmeisterschaften, Plauschturniere und weiteres beleben unser Clubleben</p>
+              <a href="./download/TCM_Vorstellung.pdf" class="btn btn-info" target="_">
+                <i class="fa fa-info-circle" aria-hidden="true"></i> Zum Flyer ..
+              </a>
+            </div>
+            <!--/.Card content-->
+
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--Second columnn-->
+
+        <!--Third columnn-->
+        <div class="col-md-4">
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay hm-white-slight">
+              <img src="./img/page/00004.jpg" class="img-fluid" alt="">
+              <a href="#">
+                <div class="mask"></div>
+              </a>
+            </div>
+            <!--/.Card image-->
+
+            <!--Card content-->
+            <div id="cost" class="card-block">
+              <!--Title-->
+              <h4 class="card-title">Die Gebühren</h4>
+              <!--Text-->
+              <p class="card-text">
+                <div class="row">
+                  <div class="col-xs-6"></div>
+                  <!-- Header passt sich der breite des Displays an. -->
+                  <div class="col-xs-3 hidden-sm-up">Jahres- beiträge</div>
+                  <div class="col-xs-3 hidden-xs-down hidden-md-up">Jahresbeiträge</div>
+                  <div class="col-xs-3 hidden-sm-down hidden-xl-up">Jahres- beiträge</div>
+                  <div class="col-xs-3 hidden-lg-down">Jahresbeiträge</div>
+                  <div class="col-xs-3 hidden-sm-up">Anteils- scheine</div>
+                  <div class="col-xs-3 hidden-xs-down hidden-md-up">Anteilsscheine</div>
+                  <div class="col-xs-3 hidden-sm-down hidden-xl-up">Anteils- scheine</div>
+                  <div class="col-xs-3 hidden-lg-down">Anteilsscheine</div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-6">Einzelmitglied</div>
+                  <div class="col-xs-3"><div class="pull-right">420.00</div></div>
+                  <div class="col-xs-3"><div class="pull-right">700.00</div></div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-6">Ehepaare</div>
+                  <div class="col-xs-3"><div class="pull-right">550.00</div></div>
+                  <div class="col-xs-3"><div class="pull-right">1400.00</div></div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-6">Familien</div>
+                  <div class="col-xs-3"><div class="pull-right">660.00</div></div>
+                  <div class="col-xs-3"><div class="pull-right">1400.00</div></div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-6">Junioren (bis Alter 18)</div>
+                  <div class="col-xs-3"><div class="pull-right">120.00</div></div>
+                  <div class="col-xs-3"></div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-6">Lehrling / Student</div>
+                  <div class="col-xs-3"><div class="pull-right">120.00</div></div>
+                  <div class="col-xs-3"></div>
+                </div>
+              </p>
+              <a href="./download/TCM_Vorstellung.pdf" class="btn btn-info" target="_">
+                <i class="fa fa-info-circle" aria-hidden="true"></i> Zum Flyer ..
+              </a>
+            </div>
+            <!--/.Card content-->
+
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--Third columnn-->
+      </div>
+      <!--/.Second row-->
+    </div>
+
+
+    <!--            -->
+    <!-- TCM Events -->
+    <div id="events" class="container">
+      <hr class="extra-margins">
+      <h2 class="h2-responsive">Anässe 2016 des TC Münchenstein</h2>
+
+      <!--Event row-->
+      <div class="row">
+        <!--Event-->
+        <div class="col-md-4">
+          <div class="card text-xs-center">
+            <div class="card-header">
+              <h4 class="card-title"><i class="fa fa-glass" aria-hidden="true"></i> Eröffnungsapéro</h4>
+            </div>
+            <div class="card-block">
+              <p class="card-text">Der Apéro findet bei jedem Wetter statt.</p>
+            </div>
+            <div class="card-footer text-muted">
+              <p class="card-text">18. April 2016 ab 19.00 Uhr</p>
+            </div>
+          </div>
+        </div>
+        <!--/.Event-->
+        <!--Event-->
+        <div class="col-md-4">
+          <div class="card text-xs-center">
+            <div class="card-header">
+              <h4 class="card-title"><i class="fa fa-group" aria-hidden="true"></i> Gruppentraining</h4>
+            </div>
+            <div class="card-block">
+              <p class="card-text">Jeden Montag nur bei schönem Wetter.</p>
+              <p class="card-text">Unser Trainer informiert Sie über die einzelnen Termine.</p>
+            </div>
+            <div class="card-footer text-muted">
+              <p class="card-text">Ab 18. April 2016, 19.00 Uhr</p>
+            </div>
+          </div>
+        </div>
+        <!--/.Event-->
+        <!--Event-->
+        <div class="col-md-4">
+          <div class="card text-xs-center">
+            <div class="card-header">
+              <h4 class="card-title"><i class="fa fa-trophy" aria-hidden="true"></i> Interclub</h4>
+            </div>
+            <div class="card-block">
+              <p class="card-text">Im Juni an den Wochenenden.</p>
+              <a href="https://www.swisstennis.ch/" class="card-link" target="_">Swisstennis</a>
+            </div>
+            <div class="card-footer text-muted card-warning white-text">
+              <p class="card-text">Juni 2016</p>
+            </div>
+          </div>
+        </div>
+        <!--/.Event-->
+      </div>
+      <!--/.Event row-->
+
+      <!-- Event row-->
+      <div class="row">
+        <!--Event-->
+        <div class="col-md-4">
+          <div class="card text-xs-center z-depth-5">
+            <div class="card-header">
+              <h4 class="card-title"><span class="label green">Next</span></h4>
+              <h4 class="card-title"><i class="fa fa-glass" aria-hidden="true"></i> 50 Jahre TC Münchenstein</h4>
+            </div>
+            <div class="card-block">
+              <p class="card-text">Anlässlich des diesjährigen 50-jährigen Jubiläum des TC Münchenstein sowie der Fussball Europameisterschaft in Frankreich, haben wir uns überlegt, dass wir auch in diesem Jahr mit einem Public-Viewing für die Mitglieder des TC Münchensteins am Start sein werden.</p>
+              <a href="./download/TCM_Jubilaeum.pdf" class="card-link" target="_">Einladung</a>
+            </div>
+            <div class="card-footer text-muted card-warning white-text">
+              <p class="card-text">2. Juli 2016, 19.00 Uhr</p>
+            </div>
+          </div>
+        </div>
+        <!--/.Event-->
+        <!--Event-->
+        <div class="col-md-4">
+          <div class="card text-xs-center">
+            <div class="card-header">
+              <h4 class="card-title"><i class="fa fa-trophy" aria-hidden="true"></i> Clubmeisterschaften</h4>
+            </div>
+            <div class="card-block">
+              <p class="card-text">Wir möchten euch ganz herzlich zur Teilnahme der diesjährigen Einzel- und Doppelclubmeisterschaften einladen. Wir erhoffen uns einen tollen Anlass, mit vielen Anmeldungen, wo immer der Spass im Vordergrund stehen soll.</p>
+              <p class="card-text">Wir freuen uns über viele Anmeldungen in den verschiedenen Kategorien. Die genauen Zeiten werden unter den Teilnehmer festgelegt.</p>
+              <a href="./download/TCM_Clubmeisterschaften_2016.pdf" class="card-link" target="_">Anmeldung</a>
+            </div>
+            <div class="card-footer text-muted card-warning white-text">
+              <p class="card-text">6.8. - 27.8.2016</p>
+            </div>
+          </div>
+        </div>
+        <!--/.Event-->
+        <!--Event-->
+        <div class="col-md-4">
+          <div class="card text-xs-center">
+              <div class="card-header">
+                <h4 class="card-title"><i class="fa fa-flag-checkered" aria-hidden="true"></i> Finaltag</h4>
+              </div>
+              <div class="card-block">
+                <p class="card-text">Auch dieses Jahr werden wir den Finaltag zusammen feiern. Wir freuen uns über viele Teilnehmer. Das Anmeldeformular findet dafür findet ihr unten im Link.</p>
+                <p class="card-text">Das Finaltag-Essen sowie die Finalspiele finden bei jeder Witterung statt, die Spiele würden allenfalls in eine Halle verschoben werden!!</p>
+                <a href="./download/TCM_Clubmeisterschaften_2016.pdf" class="card-link" target="_">Anmeldung</a>
+              </div>
+              <div class="card-footer text-muted card-warning white-text">
+                <p class="card-text">27.8.2016</p>
+              </div>
+          </div>
+        </div>
+        <!--/.Event--> 
+      </div>
+      <!--/.Event row-->
+    </div>
+    <!--/.Events-->
+
+
+    <div id="schnupperAbo" class="container">
+      <hr class="extra-margins">
+
+      <!--First row-->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron">
+            <h2 class="h2-responsive"><span class="label green">New</span> Mit dem Schnupperabo zur ersten Mitgliedschaft</h2>
+            <br>
+            <p>Der TC Münchenstein bietet Ihnen für ein Jahr die volle Mitgliedschaft zum halben Preis</p>
+            <hr>
+            <p>Für alle die dem nun über 50-jährigen Tennisclub Münchenstein miterleben möchten. Vorteile für dieses Angebot gibt es einige wie:
+              <ul class="list-group">
+                <li class="list-group-item yellow lighten-5"><i class="fa fa-thumbs-o-up fa-lg text-danger" aria-hidden="true"></i> Du bezahlst nur die Hälfte der jeweiligen Mitgliederkategorie</li>
+                <li class="list-group-item yellow lighten-4"><i class="fa fa-thumbs-o-up fa-lg text-danger" aria-hidden="true"></i> Du lernst den Club und die Leute kennen</li>
+                <li class="list-group-item yellow lighten-3"><i class="fa fa-thumbs-o-up fa-lg text-danger" aria-hidden="true"></i> Du bis als Vollmitglied an allen Anlässen und Aktivitäten herzlich eingeladen und berechtigt
+überall teilzunehmen</li>
+                <li class="list-group-item yellow lighten-2"><i class="fa fa-thumbs-o-up fa-lg text-danger" aria-hidden="true"></i> Die Anteilsscheine sind einmalig erst ab dem 2. Jahr zu bezahlen</li>
+              </ul> 
+            </p>
+            <a target="_blank" href="./download/TCM_Schnupperabo.pdf" class="btn btn-info btn-rounded" ><i class="fa fa-check left"></i> Mehr dazu ..</a>
+            <a target="_blank" href="./download/TCM_Beitrittsgesuch.pdf" class="btn btn-primary btn-rounded" ><i class="fa fa-shopping-cart left"></i> Zum Beitrittsgesuch ..</a>
+          </div>
+        </div>
+      </div>
+      <!--/.First row-->
+
+    </div>
+
+    <!--/.Main layout-->
+  </main>
+
+
+  <!--Footer-->
+  <footer id="downloads" class="page-footer center-on-small-only primary-color-dark">
+
+    <!--Footer Links-->
+    <div class="container-fluid">
+      <div class="row">
+
+        <!--First column-->
+        <div class="col-md-3 col-md-offset-1">
+          <h5 class="title">TC Münchenstein</h5>
+          <p>Der TC Münchenstein feiert dieses Jahr sein 50 Jähriges Bestehen.</p>
+          <p>Neumitglieder sind bei uns jederzeit herzlich willkommen.</p>
+        </div>
+        <!--/.First column-->
+
+        <hr class="hidden-md-up">
+
+        <!--Second column-->
+        <div class="col-md-2 col-md-offset-1">
+          <h5 class="title">Downloads</h5>
+          <ul>
+            <li><a href="./download/TCM_Beitrittsgesuch.pdf" target="_">Beitrittsgesuch</a></li>
+            <li><a href="./download/TCM_Clubreglement.pdf" target="_">Clubreglement</a></li>
+            <li><a href="./download/TCM_Statuten.pdf" target="_">Statuten</a></li>
+            <li><a href="./download/TCM_Vorstellung.pdf" target="_">Flyer zum Club</a></li>
+            <li><a href="./download/TCM_Schnupperabo.pdf" target="_">Schnupperabo</a></li>
+            <li><a href="#" target="_">Jahresprogramm</a></li>
+            <br>
+            <li><a href="./download/TCM_Clubmeisterschaften_2016.pdf" target="_">Clubmeisterschaften Anmeldung</a></li>
+            <li><a href="./download/TCM_Jubilaeum.pdf" target="_">50 Jahre TCM Anmeldung</a></li>
+          </ul>
+        </div>
+        <!--/.Second column-->
+
+        <hr class="hidden-md-up">
+
+        <!--Third column-->
+        <div class="col-md-2">
+          <h5 class="title">Wir im Netz</h5>
+          <ul>
+            <li><a href="https://www.facebook.com/TennisclubMuenchenstein" target="_"><button type="button" class="btn btn-fb"><i class="fa fa-facebook left"></i> Facebook</button></a></li>
+            <li><a href="http://www.youtube.com/user/TCMuenchenstein" target="_"><button type="button" class="btn btn-yt"><i class="fa fa-youtube left"></i> Youtube</button></a></li>
+            <li><a href="http://www.flickr.com/tcmuenchenstein" target="_"><button type="button" class="btn btn-flickr unique-color-dark"><i class="fa fa-flickr left"></i> flickr</button></a></li>
+            <li><a href="https://www.swisstennis.ch" target="_"><button type="button" class="btn btn-swisstennis blue-grey"><i class="fa fa-circle-o left"></i> Swisstennis</button></a></li>
+          </ul>
+        </div>
+        <!--/.Third column-->
+
+        <hr class="hidden-md-up">
+
+        <!--Fourth column-->
+        <div class="col-md-2">
+          <h5 class="title">ARCHIV</h5>
+          <ul>
+            <li><a href="#!" target="_">Anlässe</a></li>
+          </ul>
+        </div>
+        <!--/.Fourth column-->
+
+      </div>
+    </div>
+    <!--/.Footer Links-->
+
+    <!--Copyright-->
+    <div class="footer-copyright">
+      <div class="container-fluid">
+        © 2016 Copyright: <a href="http://www.tc-muenchenstein.ch"> TC Münchenstein </a>
+
+      </div>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+
+  <!-- SCRIPTS -->
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="./assets/js/jquery-2.2.3.min.js"></script>
+
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="./assets/js/tether.min.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+  <!--
+    <script type="text/javascript" src="../../../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+-->
+
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="./assets/js/mdb.min.js"></script>
+
+  <script type="text/javascript" src="./assets/js/tcm.js"></script>
+
+</body>
+
+</html>
