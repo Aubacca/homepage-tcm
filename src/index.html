@@ -6,21 +6,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
+  <title>Tennisclub Münchenstein</title>
 
   <!-- Font Awesome -->
-  <!--
+<!--
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 -->
   <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
 
   <!-- Bootstrap core CSS -->
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-  <!--
+<!--
     <link href="../../../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 -->
 
-  <!-- Material Design Bootstrap -->
+  <!-- Core css. -->
   <link href="./assets/css/mdb.min.css" rel="stylesheet">
 
   <!-- Template styles -->
@@ -34,55 +34,50 @@
   <!--Navbar-->
   <nav class="navbar navbar-dark navbar-fixed-top scrolling-navbar">
 
-    <!-- Collapse button-->
-    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx">
-       <i class="fa fa-bars"></i>
-    </button>
+      <!-- Collapse button-->
+      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx2">
+          <i class="fa fa-bars"></i>
+      </button>
 
-    <div class="container">
+      <div class="container">
 
-      <!--Collapse content-->
-      <div id="menu" class="collapse navbar-toggleable-xs" id="collapseEx">
-        <!--Navbar Brand-->
-        <a class="navbar-brand" href="#">TC Münchenstein</a>
-        <!--Links-->
-        <ul class="nav navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#whoAreWe">Über uns</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#cost">Kosten</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#events">Anlässe</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#schnupperAbo">Schnupperabo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#downloads">Downloads</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="http://tc-muenchenstein.ch" target="_blank">Alt <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-        <!--Search form-->
+        <!--Collapse content-->
+        <div class="collapse navbar-toggleable-xs" id="collapseEx2">
+          <!--Navbar Brand-->
+          <a class="navbar-brand" href="#">TC Münchenstein</a>
+          <!--Links-->
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#whoAreWe">Über uns</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cost">Kosten</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#events">Anlässe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#schnupperAbo">Schnupperabo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#downloads">Downloads</a>
+            </li>
 <!--
-        <form class="form-inline">
-          <input class="form-control" type="text" placeholder="Search">
-        </form>
+            <li class="nav-item">
+              <a class="nav-link" href="http://tc-muenchenstein.ch" target="_blank">Alt <span class="sr-only">(current)</span></a>
+            </li>
 -->
-      </div>
-      <!--/.Collapse content-->
+          </ul>
+        </div>
+        <!--/.Collapse content-->
 
-    </div>
+      </div>
 
   </nav>
   <!--/.Navbar-->
-
   <!--Carousel Wrapper-->
   <div id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel">
     <!--Indicators-->
@@ -216,7 +211,7 @@
 
         <!--Main information-->
         <div id="whoAreWe" class="col-md-5">
-          <h2 class="h2-responsive">Wer sind wir</h2>
+          <h2 class="h2-responsive">Wer wir sind</h2>
           <hr>
           <div>
             <p>Der Tennisclub Münchenstein wurde am 9. November 1966 gegründet.</p>
@@ -555,7 +550,7 @@
             <li><a href="./download/TCM_Schnupperabo.pdf" target="_">Schnupperabo</a></li>
             <li><a href="#" target="_">Jahresprogramm</a></li>
             <br>
-            <li><a href="./download/TCM_Clubmeisterschaften_2016.pdf" target="_">Clubmeisterschaften Anmeldung</a></li>
+            <li><a href="./download/TCM_Clubmeisterschaften_2016.pdf" target="_">Clubmeisterschaften Anmeldung 2016</a></li>
             <li><a href="./download/TCM_Jubilaeum.pdf" target="_">50 Jahre TCM Anmeldung</a></li>
           </ul>
         </div>
@@ -581,7 +576,10 @@
         <div class="col-md-2">
           <h5 class="title">ARCHIV</h5>
           <ul>
-            <li><a href="#!" target="_">Anlässe</a></li>
+            <li class="disabled">Anlässe</li>
+<!--
+            <li><a class="disabled" href="#">Anlässe</a></li>
+-->
           </ul>
         </div>
         <!--/.Fourth column-->
@@ -613,11 +611,8 @@
 
   <!-- Bootstrap core JavaScript -->
   <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
-  <!--
-    <script type="text/javascript" src="../../../bower_components/bootstrap/dist/js/bootstrap.js"></script>
--->
 
-  <!-- MDB core JavaScript -->
+  <!-- Core JavaScript -->
   <script type="text/javascript" src="./assets/js/mdb.min.js"></script>
 
   <script type="text/javascript" src="./assets/js/tcm.js"></script>
