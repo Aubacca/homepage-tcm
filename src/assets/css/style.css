@@ -104,6 +104,13 @@ footer.page-footer {
     background-size: cover;
 }
 
+.carousel-ul {
+    opacity: 0.8;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 /*Caption*/
 
