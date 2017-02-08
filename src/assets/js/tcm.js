@@ -1,6 +1,4 @@
     $(document).ready(function () {
-//      $(".nav li").removeClass("active");  
-//      $('#cost').addClass('active');
 
       $('#collapseEx2 > ul.navbar-nav li').click(function(e) {
         $('.navbar li.active').removeClass('active');
