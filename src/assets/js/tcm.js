@@ -10,4 +10,8 @@
         }
 //        e.preventDefault();
       });
+
+
+      $('#newEvents').html('started ..');
+
     });
