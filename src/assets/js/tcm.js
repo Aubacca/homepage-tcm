@@ -58,19 +58,15 @@ var app = (function() {
     if (eventData.saison) {
 //      div.setAttribute('class', 'card-footer text-muted card-warning white-text');
       div.className += ' text-muted card-warning white-text'
-      p.innerHTML = eventData.saisonText;
+      p.innerHTML = eventData.footer;
     } else {
-      if (eventData.beginDate) {
-        p.innerHTML = eventData.beginDate;
-      }
-      if (eventData.beginTime) {
-        p.innerHTML = p.innerHTML + ', ' + eventData.beginTime;
-      }
-      if (eventData.endDate) {
-        p.innerHTML = p.innerHTML + '<br>Bis: ' + eventData.endDate;
-      }
+      p.innerHTML = eventData.footer;
     }
     div.appendChild(p);
+    //
+    console.log("beginDate", Date.parse(eventData.beginDate));
+    console.log("endDate", Date.parse(eventData.endDate));
+    //
     return div;
   },
 
