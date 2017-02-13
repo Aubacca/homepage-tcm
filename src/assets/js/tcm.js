@@ -24,9 +24,14 @@ var app = (function() {
   getDivCardHeader = function (eventData) {
     var div = document.createElement('div'),
       h4 = document.createElement('h4'),
-      icon = document.createElement('i');
+      icon = document.createElement('i'),
+      now = Date.now();
+    //
+    console.log("now: ", now);
+    console.log("beginDate: ", Date.parse(eventData.beginDate));
+    console.log("endDate: ", Date.parse(eventData.endDate));
     div.setAttribute('class', 'card-header');
-    if (eventData.saison) {
+    if (now <= Date.parse(eventData.endDate)) {
       div.className += ' bg-success';
     }
     h4.setAttribute('class', 'card-title');
@@ -56,16 +61,12 @@ var app = (function() {
     div.setAttribute('class', 'card-footer');
     p.setAttribute('class', 'card-text');
     if (eventData.saison) {
-//      div.setAttribute('class', 'card-footer text-muted card-warning white-text');
       div.className += ' text-muted card-warning white-text'
       p.innerHTML = eventData.footer;
     } else {
       p.innerHTML = eventData.footer;
     }
     div.appendChild(p);
-    //
-    console.log("beginDate", Date.parse(eventData.beginDate));
-    console.log("endDate", Date.parse(eventData.endDate));
     //
     return div;
   },
