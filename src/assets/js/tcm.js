@@ -2,6 +2,7 @@ var app = (function() {
 
   var getDivRow = function () {
     var div = document.createElement('div');
+    //
     div.setAttribute('class', 'row');
     return div;
   },
@@ -13,9 +14,11 @@ var app = (function() {
   },
   
   getDivCard = function (eventData) {
-    var div = document.createElement('div');
+    var div = document.createElement('div'),
+      now = Date.now();
+    //
     div.setAttribute('class', 'card text-xs-center');
-    if (eventData.saison) {
+    if (now <= Date.parse(eventData.endDate)) {
       div.className += ' z-depth-5';
     }
     return div;
@@ -27,9 +30,6 @@ var app = (function() {
       icon = document.createElement('i'),
       now = Date.now();
     //
-    console.log("now: ", now);
-    console.log("beginDate: ", Date.parse(eventData.beginDate));
-    console.log("endDate: ", Date.parse(eventData.endDate));
     div.setAttribute('class', 'card-header');
     if (now <= Date.parse(eventData.endDate)) {
       div.className += ' bg-success';
@@ -48,6 +48,7 @@ var app = (function() {
   getDivCardBody = function (eventData) {
     var div = document.createElement('div'),
       p = document.createElement('p');
+    //
     div.setAttribute('class', 'card-block');
     p.setAttribute('class', 'card-text');
     p.innerHTML = eventData.body;
@@ -57,15 +58,15 @@ var app = (function() {
   
   getDivCardFooter = function (eventData) {
     var div = document.createElement('div'),
-      p = document.createElement('p');
+      p = document.createElement('p'),
+      now = Date.now();
+    //
     div.setAttribute('class', 'card-footer');
     p.setAttribute('class', 'card-text');
-    if (eventData.saison) {
+    if (now <= Date.parse(eventData.endDate)) {
       div.className += ' text-muted card-warning white-text'
-      p.innerHTML = eventData.footer;
-    } else {
-      p.innerHTML = eventData.footer;
     }
+    p.innerHTML = eventData.footer;
     div.appendChild(p);
     //
     return div;
@@ -75,16 +76,12 @@ var app = (function() {
     var cardRow = getDivRow(),
       cardCol = getDivCol(4),
       card = getDivCard(eventData),
-      eventNo = 0,
-      cardHeader = getDivCardHeader(eventData[eventNo]),
-      cardBody = getDivCardBody(eventData[eventNo]),
-      cardFooter = getDivCardFooter(eventData[eventNo]),
-      cardWidth = 0;
+      cardRowWidth = 0;
     //
     eventData.forEach(function (event, index) {
-      cardWidth += 4;
-      if (cardWidth > 12) {
-        cardWidth = 4;
+      cardRowWidth += 4;
+      if (cardRowWidth > 12) {
+        cardRowWidth = 4;
         cardRow = getDivRow();
       }
       cardCol = getDivCol(4),
@@ -98,29 +95,19 @@ var app = (function() {
       card.appendChild(cardHeader);
       card.appendChild(cardBody);
       card.appendChild(cardFooter);
-      $('#newEvents').append(cardRow);
+      $('#events').append(cardRow);
     });
-    //
-    //
   },
 
   loadData = function () {
     $.getJSON("assets/js/data/events.json", function(json) {
-      console.log(json);
-      console.log(json[0].title);
       var eventData = json;
       createEventBlock(eventData);
     });
   },
   
   init = function () {
-    var eventData = {};
-    eventData.title = 'started ..!';
-    //
     loadData();
-    //
-//    createEventBlock(eventData);
-//    console.log(eventData);
   };
 
   return {

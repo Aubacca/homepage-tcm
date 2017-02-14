@@ -5,7 +5,7 @@
         "body": "Der Apéro findet bei jedem Wetter statt.",
         "footer": "18. April 2016,<br>ab 19:00 Uhr",
         "beginDate": "04 18 2016",
-        "endDate": "04 18 2017"
+        "endDate": "04 18 2016"
     },
     {
         "title": "Gruppentraining",
@@ -52,29 +52,23 @@
         "title_icon": "fa fa-group",
         "body": "<p class='card-text'><strong>16.00 Uhr:</strong> Alt-Senioren-Treff</p><p class='card-text'><strong>Ab 17.00 - 21.00 Uhr:</strong> Junioren- und Erwachsenentraining</p>",
         "footer": "die ganze Saison",
-        "saison": true,
         "beginDate": "04 27 2016",
-        "endDate": "11 30 2016",
-        "saisonText": "die ganze Saison"
+        "endDate": "11 30 2016"
     },
     {
         "title": "Dienstag's",
         "title_icon": "fa fa-group",
         "body": "<p class='card-text'><strong>17.00 - 19.00 Uhr:</strong> Training Senioren Interclub 2. Liga</p><p class='card-text'><strong>Ab 19.00 Uhr:</strong> Training Aktive Interclub 2. Liga</p>",
         "footer": "die ganze Saison",
-        "saison": true,
         "beginDate": "04 27 2016",
-        "endDate": "11 30 2016",
-        "saisonText": "die ganze Saison"
+        "endDate": "11 30 2016"
     },
     {
         "title": "Donnerstag's",
         "title_icon": "fa fa-group",
         "body": "<p class='card-text'><strong>17.00 - 19.00 Uhr:</strong> Training Senioren Interclub 2. Liga</p><p class='card-text'><strong>Ab 19.00 Uhr:</strong> Training Aktive Interclub 2. Liga</p>",
         "footer": "die ganze Saison",
-        "saison": true,
         "beginDate": "04 27 2016",
-        "endDate": "11 30 2016",
-        "saisonText": "die ganze Saison"
+        "endDate": "12 31 2016"
     }
 ]
