@@ -1,74 +1,67 @@
 [
     {
+        "title": "TCM GV 2017",
+        "title_icon": "fa fa-glass",
+        "body": "Die 51. GV des TC Münchenstein wird in der Schützenstube Au in Münchenstein durchgeführt.",
+        "footer": "21. Februar 2017,<br>ab 19:00 Uhr,<br>Schützenstube Au",
+        "beginDate": "04 18 2017",
+        "endDate": "04 18 2017"
+    },
+    {
         "title": "Eröffnungsapéro",
         "title_icon": "fa fa-glass",
         "body": "Der Apéro findet bei jedem Wetter statt.",
-        "footer": "18. April 2016,<br>ab 19:00 Uhr",
-        "beginDate": "04 18 2016",
-        "endDate": "04 18 2016"
+        "footer": "21. April 2017,<br>ab 18:30 Uhr",
+        "beginDate": "04 21 2017",
+        "endDate": "04 21 2017"
     },
     {
-        "title": "Gruppentraining",
-        "title_icon": "fa fa-group",
-        "body": "Junioren- und Erwachsenentraining auf den Plätzen 1 und 2.<br>Jeden Montag nur bei schönem Wetter.<br>Unser Trainer informiert Sie über die einzelnen Termine.",
-        "footer": "18. April 2016 - 31. November 2016,<br>ab 19:00 Uhr",
-        "beginDate": "04 18 2016",
-        "endDate": "11 31 2016"
-    },
-    {
-        "title": "Interclub",
+        "title": "Interclub 2017",
         "title_icon": "fa fa-trophy",
-        "body": "Im Juni an den Wochenenden.</p><a href='https://www.swisstennis.ch/' class='card-link' target='_'>Swisstennis</a>",
-        "footer": "01. Juni 2016 - 31. Juni 2016,<br>17.00 - 21.00 Uhr",
-        "beginDate": "06 01 2016",
-        "endDate": "06 31 2016"
+        "body": "Im April und Juni an den Wochenenden.</p><a href='https://www.swisstennis.ch/' class='card-link' target='_'>Swisstennis</a>",
+        "footer": "29. April 2017 - 25. Juni 2017",
+        "beginDate": "04 29 2017",
+        "endDate": "06 25 2017"
     },
     {
-        "title": "50 Jahre TC Münchenstein",
-        "title_icon": "fa fa-glass",
-        "body": "<p class='card-text'>Anlässlich des diesjährigen 50-jährigen Jubiläum des TC Münchenstein sowie der Fussball Europameisterschaft in Frankreich, haben wir uns überlegt, dass wir auch in diesem Jahr mit einem Public-Viewing für die Mitglieder des TC Münchensteins am Start sein werden.</p><a href='./download/TCM_Jubilaeum.pdf' class='card-link' target='_'>Einladung</a>",
-        "footer": "2. Juli 2016,<br>ab 19.00 Uhr",
-        "beginDate": "07 02 2016",
-        "endDate": "07 31 2016"
-    },
-    {
-        "title": "Clubmeisterschaften",
+        "title": "Clubmeisterschaften 2017",
         "title_icon": "fa fa-trophy",
-        "body": "<p class='card-text'>Wir möchten euch ganz herzlich zur Teilnahme der diesjährigen Einzel- und Doppelclubmeisterschaften einladen. Wir erhoffen uns einen tollen Anlass, mit vielen Anmeldungen, wo immer der Spass im Vordergrund stehen soll.</p><p class='card-text'>Wir freuen uns über viele Anmeldungen in den verschiedenen Kategorien. Die genauen Zeiten werden unter den Teilnehmer festgelegt.</p><p class='card-text'>Anmeldeschluss: 3. August 2016</p><p class='card-text'>Finaltag: 27. August 2016</p><a href='./download/TCM_Clubmeisterschaften_2016.pdf' class='card-link' target='_'>Anmeldung</a>",
-        "footer": "06.8.2016 - 27.8.2016",
-        "beginDate": "08 06 2016",
-        "endDate": "08 27 2016"
+        "body": "<p class='card-text'>Wir möchten euch ganz herzlich zur Teilnahme der diesjährigen Einzel- und Doppelclubmeisterschaften einladen. Wir erhoffen uns einen tollen Anlass, mit vielen Anmeldungen, wo immer der Spass im Vordergrund stehen soll.</p><p class='card-text'>Wir freuen uns über viele Anmeldungen in den verschiedenen Kategorien. Die genauen Zeiten werden unter den Teilnehmer festgelegt.</p><p class='card-text'>Anmeldeschluss: 3. August 2017</p><p class='card-text'>Finaltag: 27. August 2017</p><a href='./download/TCM_Clubmeisterschaften_2017.pdf' class='card-link' target='_'>Anmeldung</a>",
+        "footer": "05.8.2017 - 26.8.2017",
+        "beginDate": "08 05 2017",
+        "endDate": "08 26 2017"
     },
     {
-        "title": "Finaltag",
+        "title": "Clubmeisterschaften Finaltag 2017",
         "title_icon": "fa fa-flag-checkered",
-        "body": "<p class='card-text'>Auch dieses Jahr werden wir den Finaltag zusammen feiern. Wir freuen uns über viele Teilnehmer. Das Anmeldeformular findet dafür findet ihr unten im Link.</p><p class='card-text'>Das Finaltag-Essen sowie die Finalspiele finden bei jeder Witterung statt, die Spiele würden allenfalls in eine Halle verschoben werden!!</p><a href='./download/TCM_Clubmeisterschaften_2016.pdf' class='card-link' target='_'>Anmeldung</a>",
-        "footer": "27.8.2016,<br>ab 12.00 Uhr",
-        "beginDate": "08 27 2016",
-        "endDate": "08 27 2016"
+        "body": "<p class='card-text'>Auch dieses Jahr werden wir den Finaltag zusammen feiern. Wir freuen uns über viele Teilnehmer. Das Anmeldeformular findet dafür findet ihr unten im Link.</p><p class='card-text'>Das Finaltag-Essen sowie die Finalspiele finden bei jeder Witterung statt, die Spiele würden allenfalls in eine Halle verschoben werden!!</p><a href='./download/TCM_Clubmeisterschaften_2017.pdf' class='card-link' target='_'>Anmeldung</a>",
+        "footer": "26.8.2017,<br>ab 12.00 Uhr",
+        "beginDate": "08 26 2017",
+        "endDate": "08 26 2017"
     },
     {
+        "newLine": true,
         "title": "Montag's",
         "title_icon": "fa fa-group",
         "body": "<p class='card-text'><strong>16.00 Uhr:</strong> Alt-Senioren-Treff</p><p class='card-text'><strong>Ab 17.00 - 21.00 Uhr:</strong> Junioren- und Erwachsenentraining</p>",
         "footer": "die ganze Saison",
-        "beginDate": "04 27 2016",
-        "endDate": "11 30 2016"
+        "beginDate": "04 21 2017",
+        "endDate": "11 30 2017"
     },
     {
         "title": "Dienstag's",
         "title_icon": "fa fa-group",
         "body": "<p class='card-text'><strong>17.00 - 19.00 Uhr:</strong> Training Senioren Interclub 2. Liga</p><p class='card-text'><strong>Ab 19.00 Uhr:</strong> Training Aktive Interclub 2. Liga</p>",
         "footer": "die ganze Saison",
-        "beginDate": "04 27 2016",
-        "endDate": "11 30 2016"
+        "beginDate": "04 21 2017",
+        "endDate": "11 30 2017"
     },
     {
         "title": "Donnerstag's",
         "title_icon": "fa fa-group",
         "body": "<p class='card-text'><strong>17.00 - 19.00 Uhr:</strong> Training Senioren Interclub 2. Liga</p><p class='card-text'><strong>Ab 19.00 Uhr:</strong> Training Aktive Interclub 2. Liga</p>",
         "footer": "die ganze Saison",
-        "beginDate": "04 27 2016",
-        "endDate": "12 31 2016"
+        "beginDate": "04 21 2017",
+        "endDate": "12 31 2017"
     }
 ]

@@ -80,9 +80,6 @@ var app = (function() {
     //
     eventData.forEach(function (event, index) {
       cardRowWidth += 4;
-      if (event.newLine) {
-        cardRowWidth = 9999;
-      }
       if (cardRowWidth > 12) {
         cardRowWidth = 4;
         cardRow = getDivRow();
