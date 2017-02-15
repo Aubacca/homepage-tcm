@@ -6,3 +6,6 @@ bilder/
 images/
 temp/
 node_modules/
+src/assets/images/temp
+
+npm-debug.log

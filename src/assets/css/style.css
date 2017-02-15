@@ -1,5 +1,4 @@
 /* TEMPLATE STYLES */
-
 main {
     padding-top: 0.5rem;
     padding-bottom: 1rem;
@@ -9,12 +8,10 @@ main {
     margin-top: 2rem;
     margin-bottom: 2.5rem;
 }
-
 /* TEMPLATE STYLES */
 
 
 /* Necessary for full page carousel*/
-
 html,
 body {
     height: 100%;
@@ -22,7 +19,6 @@ body {
 
 
 /* Navigation*/
-
 .navbar {
     background-color: transparent;
 }
@@ -41,9 +37,7 @@ footer.page-footer {
     }
 }
 
-
 /* Carousel*/
-
 .carousel {
     height: 60%;
     text-align: center;
@@ -71,9 +65,6 @@ footer.page-footer {
 }
 
 .carousel-item:nth-child(1) {
-/*
-    background-image: url("../images/slides/slide(6).jpg");
-*/
     background-image: url("../images/slides/club00001.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,18 +72,12 @@ footer.page-footer {
 }
 
 .carousel-item:nth-child(2) {
-/*
-    background-image: url("../images/slides/slide(11).jpg");
-*/
     background-image: url("../images/slides/club00002.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .carousel-item:nth-child(3) {
-/*
-    background-image: url("../images/slides/slide(7).jpg");
-*/
     background-image: url("../images/slides/club00003.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,11 +98,9 @@ footer.page-footer {
 
 
 /*Caption*/
-
 .flex-center {
     color: #fff;
 }
-
 
 .jumbotron {
     text-align: center;
