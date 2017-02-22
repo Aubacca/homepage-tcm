@@ -1,11 +1,11 @@
 [
     {
         "title": "TCM GV 2017",
-        "title_icon": "fa fa-glass",
+        "title_icon": "fa fa-university",
         "body": "Die 51. GV des TC Münchenstein wird in der Schützenstube Au in Münchenstein durchgeführt.",
         "footer": "21. Februar 2017,<br>ab 19:00 Uhr,<br>Schützenstube Au",
-        "beginDate": "04 18 2017",
-        "endDate": "04 18 2017"
+        "beginDate": "02 21 2017",
+        "endDate": "02 21 2017"
     },
     {
         "title": "Eröffnungsapéro",
@@ -17,7 +17,7 @@
     },
     {
         "title": "Interclub 2017",
-        "title_icon": "fa fa-trophy",
+        "title_icon": "fa fa-exchange",
         "body": "Im April und Juni an den Wochenenden.</p><a href='https://www.swisstennis.ch/' class='card-link' target='_'>Swisstennis</a>",
         "footer": "29. April 2017 - 25. Juni 2017",
         "beginDate": "04 29 2017",
@@ -62,6 +62,6 @@
         "body": "<p class='card-text'><strong>17.00 - 19.00 Uhr:</strong> Training Senioren Interclub 2. Liga</p><p class='card-text'><strong>Ab 19.00 Uhr:</strong> Training Aktive Interclub 2. Liga</p>",
         "footer": "die ganze Saison",
         "beginDate": "04 21 2017",
-        "endDate": "12 31 2017"
+        "endDate": "11 30 2017"
     }
 ]
