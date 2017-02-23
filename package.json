@@ -1,0 +1,27 @@
+{
+  "name": "homepage-tcm",
+  "version": "1.0.0",
+  "description": "Homepage of TC Münchenstein",
+  "main": "./src/index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "connect": "^3.5.0",
+    "serve-static": "^1.11.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aubacca/homepage-tcm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aubacca/homepage-tcm/issues"
+  },
+  "homepage": "https://github.com/Aubacca/homepage-tcm"
+}
